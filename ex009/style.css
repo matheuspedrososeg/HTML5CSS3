@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #cad2c5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+.section {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    border: solid #2f3e46 3px;
+    border-radius: 12px;
+    background-color: #84a98c;
+    width: 50%;
+
+}
+
+.section h3 {
+    padding: 10px;
+}
+.section ol {
+    padding-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+}
+#banana {
+    border: solid #2f3e46 4px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.sublist {
+    padding-left: 70px;
+}
+.subtitle2 {
+    margin: 15px;
+}
+.listmargin {
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.listmargin2 {
+    margin-bottom: 5px;
+}
+
+  /* Mobile devices: 320px — 480px */
+@media (max-width: 480px) {
+    .section {
+        width: 80%;
+    }
+    /* Styles for mobile devices */
+}
+
+/* iPads, Tablets: 481px — 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Styles for tablets */
+    .section {
+        width: 60%;
+    }
+}
+
+/* Small screens, laptops: 769px — 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .section {
+        width: 50%;
+    }
+    /* Styles for small screens and laptops */
+}
+
+/* Desktops, large screens: 1025px — 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .section {
+        width: 40%;
+    }
+    /* Styles for desktops and large screens */
+}
+
+/* Extra large screens, TV: 1201px and more */
+@media (min-width: 1201px) {
+    /* Styles for extra large screens */
+    .section {
+        width: 30%;
+    }
+}
