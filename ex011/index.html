@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML.</title>
+</head>
+
+<body>
+    <h1>Imagens dinâmicas.</h1>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/banana.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/bananan512.png" type="image/png">
+        <img src="imgs/banana800.png" alt="">
+    </picture>
+
+    <h1>Reproduzindo áudios</h1>
+
+    <!-- audio de 30mb  -->
+    <audio controls autoplay>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não suporta áudios.</p>
+    </audio>
+
+    <!-- <audio src="midia/guanacast-33.mp3" controls autoplay></audio> -->
+
+    <video src="midia/meu-video.mp4" controls ></video>
+
+</body>
+
+</html>
