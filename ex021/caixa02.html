@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+</head>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(89, 93, 156);
+        }
+
+        header {
+            border:8px solid white;
+            background-color: lightgray;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(90, 89, 89);
+            padding: 3px;
+            box-shadow: 2px 2px 2px rgb(36, 36, 36);
+
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 22px;
+            font-style: italic;
+            font-size: 14px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: lightgray;
+        }
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(128, 128, 128);
+            text-align: centre;
+        }
+        footer {
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        footer > p {
+            margin: 1px;
+        }
+    </style>
+    
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Página inicial</a>
+            <a href="#">Favoritos</a>
+            <a href="#">Notícias mundiais</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <section id="assuntos">
+    </section>
+    <main>
+
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit impedit mollitia maxime corporis deserunt, nisi debitis voluptates quos praesentium nemo porro ut quas dolore esse, vero excepturi in obcaecati?</p>
+                <aside>
+                    <p>Artigo escrito por uma Banana Amendoim!</p>
+                </aside>
+            </article>
+          <article>
+
+          </article>
+        </section>
+
+        </main>
+
+        <footer>
+            <p>Desenvolvido por outra Banana Amendoim</p>
+        </footer>
+</body>
+
+</html>
