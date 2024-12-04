@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table {
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    table td {
+        padding: 5px;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+    #table-header {
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+    }
+
+    #footer-col {
+        text-align: left;
+        background-color: gray;
+        color: white;
+        font-weight: bold;
+    }
+</style>
+
+<body>
+    <table>
+        <thead id="table-header">
+            <tr>
+                <td rowspan="2">Área</td>
+                <td rowspan="2">Disciplinas</td>
+                <td colspan="2">Notas</td>
+                <td rowspan="2">Média</td>
+            </tr>
+            <tr>
+                <td>Nota 1</td>
+                <td>Nota 2</td>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <td>Química</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+
+        <tbody>
+            <tr id="footer-col">
+                <td colspan="4">Média de Extaas</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td rowspan="2">Humanas</td>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="footer-col">
+                <td colspan="4">Média de Extaas</td>
+                <td>0.0</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
