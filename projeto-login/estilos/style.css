@@ -57,7 +57,7 @@ section#login > div#formulario {
 @media screen and (min-width:768px) and (max-width: 992px) {
     section#login {
         width: 80vw;
-        height: 370px;
+        height: 30vw;
         display: flex;
         transition: width .6s ease, height .6s ease;
     }
@@ -94,10 +94,9 @@ section#login > div#formulario {
     }
     section#login {
         width: 80vw;
-        height: 35vw;
+        height: 30vw;
         display: flex;
-        transition: width 0.3s, height 0.3s;
-        transition: ease;
+        transition: width .6s ease, height .6s ease;
     }
     section#login > div#imagem {
         width: 30vw;
@@ -107,10 +106,9 @@ section#login > div#formulario {
 @media screen and (min-width:1200px) {
     section#login {
         width: 80vw;
-        height: 50vh;
+        height: 45vh;
         display: flex;
-        transition: width 0.3s, height 0.3s;
-        transition: ease;
+        transition: width .6s ease, height .6s ease;
     }
     section#login h1 {
         padding-top: 15px;
@@ -125,6 +123,6 @@ section#login > div#formulario {
     }
     section#login > div#imagem {
         width: 400px;
-        height: 500px;
+        height: 45vw;
     }
 }
