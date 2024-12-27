@@ -26,7 +26,7 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 50vw;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
@@ -36,7 +36,7 @@ section#login > div#imagem {
     background: rgb(54, 54, 54) url(../imgs/pexels-otto-kh-283688374-13059398.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 200px;
+    height: 30vw;
 }
 
 section#login > div#formulario {
@@ -46,7 +46,7 @@ section#login > div#formulario {
 
 @media screen and (min-width:768px) and (max-width: 992px) {
     section#login {
-        width: 700px;
+        width: 80vw;
         height: 370px;
         display: flex;
     }
@@ -60,7 +60,7 @@ section#login > div#formulario {
 
     section#login > div#imagem {
         width: 400px;
-        height: 375px;
+        height: 50vw;
     }
 }
 
@@ -72,23 +72,22 @@ section#login > div#formulario {
     }
     section#login p {
         font-size: 16px;
-
     }
 
     section#login {
-        width: 800px;
-        height: 400px;
+        width: 80vw;
+        height: 35vw;
         display: flex;
     }
     section#login > div#imagem {
-        width: 500px;
-        height: 400px;
+        width: 45vw;
+        height: 40vw;
     }
 }
 @media screen and (min-width:1200px) {
     section#login {
-        width: 1000px;
-        height: 500px;
+        width: 80vw;
+        height: 50vh;
         display: flex;
     }
     section#login h1 {
