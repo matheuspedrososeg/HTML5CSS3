@@ -12,6 +12,13 @@ body, html {
     width: 100vw;
 }
 
+.material-icons {
+    
+}
+.campo {
+    margin-top: 20px;
+}
+
 main {
     height: 100vh;
     width: 100vw;
