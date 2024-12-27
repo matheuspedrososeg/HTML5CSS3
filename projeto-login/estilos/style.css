@@ -18,6 +18,13 @@ main {
     position: relative;
 }
 
+section#login p {
+    display: none;
+}
+section#login #small-text {
+    display: block;
+}
+
 section#login {
     position: absolute;
     top: 50%;
@@ -27,7 +34,8 @@ section#login {
 
     background-color: white;
     width: 50vw;
-    height: 500px;
+    margin-bottom: 10px;
+    height: 360px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.555);
     transition: width 0.3s, height 0.3s;
@@ -38,7 +46,7 @@ section#login > div#imagem {
     background: rgb(54, 54, 54) url(../imgs/pexels-otto-kh-283688374-13059398.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vw;
+    height: 25vw;
 }
 
 section#login > div#formulario {
@@ -51,8 +59,7 @@ section#login > div#formulario {
         width: 80vw;
         height: 370px;
         display: flex;
-        transition: width 0.3s, height 0.3s;
-        transition: ease;
+        transition: width .6s ease, height .6s ease;
     }
     section#login h1 {
         padding-top: 15px;
@@ -60,6 +67,10 @@ section#login > div#formulario {
     }
     section#login p {
         font-size: 16px;
+        display: block;
+    }
+    section#login #small-text {
+        display: none;
     }
 
     section#login > div#imagem {
@@ -76,8 +87,11 @@ section#login > div#formulario {
     }
     section#login p {
         font-size: 16px;
+        display: block;
     }
-
+    section#login #small-text {
+        display: none;
+    }
     section#login {
         width: 80vw;
         height: 35vw;
@@ -86,8 +100,8 @@ section#login > div#formulario {
         transition: ease;
     }
     section#login > div#imagem {
-        width: 45vw;
-        height: 40vw;
+        width: 30vw;
+        height: 35vw;
     }
 }
 @media screen and (min-width:1200px) {
@@ -104,8 +118,11 @@ section#login > div#formulario {
     }
     section#login p {
         font-size: 18px;
+        display: block;
     }
-
+    section#login #small-text {
+        display: none;
+    }
     section#login > div#imagem {
         width: 400px;
         height: 500px;
