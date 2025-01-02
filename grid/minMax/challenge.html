@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid sizing exercise</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 400px minmax(200px, 500px);
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 10px;
+        background-color: grey;
+        text-align: center;
+        grid-auto-rows: 50px;
+    }
+    .container > h2 {
+        color: white;
+    }
+</style>
+<body>
+    <div class="container">
+        <h2>width expands to fill space</h2>
+        <h2>400px wide</h2>
+        <h2>min 200px and 500px wide</h2>
+        <h2>width expands to fill space</h2>
+        <h2>400px wide</h2>
+        <h2>min 200px and 500px wide</h2>
+        <h2>width expands to fill space</h2>
+        <h2>400px wide</h2>
+        <h2>min 200px and 500px wide</h2>
+        <h2>50px high</h2>
+    </div>
+</body>
+</html>
