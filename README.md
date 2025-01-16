@@ -1,6 +1,6 @@
 # html5css3
 
-Curso de HTML e CSS do Gustavo Guanabara.
+Curso de HTML e CSS:
 
 Projetos feitos durante o curso:
 
